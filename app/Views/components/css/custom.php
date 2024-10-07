@@ -69,11 +69,20 @@ body {
     opacity: 0.8;
 }
 
-.hero-section h1, .hero-section p {
+.hero-section h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 5em;
+}
+
+.hero-section p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
 }
 
 </style>
