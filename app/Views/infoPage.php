@@ -11,6 +11,7 @@
     </head>
 
     <body>
+        <!-- Header -->
         <?= $this->include('components/header_nav') ?>
 
         <!-- CODE HERE -->
