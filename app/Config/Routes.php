@@ -7,4 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::landing');
 $routes->get('aboutUs', 'Home::about');
-$routes->get('travelInformation', 'Home::info');
+$routes->get('travelInformation', 'Home::info');    

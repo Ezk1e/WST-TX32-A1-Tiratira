@@ -21,6 +21,6 @@ class Home extends BaseController
 
     public function info(): string
     {
-        return view('infoPage')
+        return view('infoPage');
     }
 }

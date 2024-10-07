@@ -14,7 +14,7 @@
         <!-- Header -->
         <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
             <div class="container">
-                <a href="welcome_message.php" class="navbar-brand text-uppercase fs-5">
+                <a href="<?= base_url() ?>" class="navbar-brand text-uppercase fs-5">
                     <img src="" alt="Logo" width="70" class="d-inline-block align-middle">
                     Cebu Pacific
                 </a>
@@ -26,18 +26,21 @@
                 <div class="collapse navbar-collapse" id="list1">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="welcome_message.php" class="nav-link">Home</a>
+                            <a href="<?= base_url() ?>" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="servicesPage.php" class="nav-link">Travel Info</a>
+                            <a href="<?= base_url() . 'travelInformation'?>" class="nav-link">Travel Info</a>
                         </li>
                         <li class="nav-item">
-                            <a href="aboutPage.php" class="nav-link">About</a>
+                            <a href="<?= base_url() . 'aboutUs' ?>" class="nav-link">About</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!-- CODE HERE -->
+        <h1>LANDING PAGE</h1>
 
         <!-- Footer -->
         <div class="darkblue pb-3">
