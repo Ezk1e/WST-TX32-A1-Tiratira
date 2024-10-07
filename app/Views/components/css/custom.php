@@ -1,3 +1,4 @@
+<style>
 
 * {
     box-sizing: border-box;
@@ -55,3 +56,24 @@ body {
 .center {
     text-align: center;
 }
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.hero-section h1, .hero-section p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+</style>
