@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Cebu Pacific Airlines</title>
-        <link rel="icon" type="image/ico" href="">
+        <link rel="icon" type="image/ico" href="assets/images/logo/CB.png">
         <!-- Bootstrap/CSS -->
         <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
         <!-- JavaScript For Buttons -->

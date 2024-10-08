@@ -9,25 +9,25 @@
 .navbar-brand {
     font-family: 'Exo', sans-serif;
     font-weight: 700;
-    color: #04E0D8;
+    color: #1a76bb;
 }
 
 .navbar-brand:hover {
-    color: #aaf8ca;
+    color: #00a4e5;
     }
 
 .nav-link {
     font-family: 'Exo', sans-serif;
-    font-weight: 400;
-    color: #04E0D8;
+    font-weight: 700;
+    color: #1a76bb;
 }
 
 .nav-link:hover {
-    color: #aaf8ca;
+    color: #00a4e5;
 }
 
 .navbar-custom {
-    background-color: #14142c;
+    background-color: #d9d8d6;
 }
 
 p{
@@ -39,18 +39,21 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #060620;
-    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.yellow {
+    background-color: #ffe01e;
+    color: #1a78af;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.lightblue {
+    background-color: #00a4e5;
 }
 
 .cyan {
-    color: #04E0D8;
-}
-
-.darkblue {
-    background-color: #1c1c3c;
-    color: white;
-    font-family: 'Catamaran', sans-serif;
+    color: #1a78af;
 }
 
 .center {
@@ -66,7 +69,7 @@ body {
 .hero-image {
     width: 100%;
     height: auto;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .hero-section h1 {
@@ -75,6 +78,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section p {
@@ -83,6 +87,66 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-title {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 15px;
+}
+
+.about-text {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.boxes {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+
+.boxes .container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+    transition: all 0.3s;
+}
+
+.box h3 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.box:hover {
+    transform: scale(1.15);
+}
+
+.buttons {
+    width: 150px;
+    object-fit: cover;
+}
+
+.img-hv {
+    transition: transform 0.3s ease;
+}
+
+.img-hv:hover {
+    transform: scale(1.05);
 }
 
 </style>
