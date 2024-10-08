@@ -36,7 +36,7 @@
             <div class="box">
             <a href="<?= base_url()?>" class="navbar-brand text-center fs-5">
                     <img class="buttons" src="assets/images/logo/buttontest.jpg">
-                    <h3>Check In</h3>
+                    <h3>Book Flight</h3>
                 </a>
             </div>
         </div>
