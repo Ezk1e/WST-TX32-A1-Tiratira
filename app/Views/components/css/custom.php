@@ -27,7 +27,7 @@
 }
 
 .navbar-custom {
-    background-color: #d9d8d6;
+    background-color: #ffffff;
 }
 
 p{
