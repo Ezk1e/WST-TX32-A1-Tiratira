@@ -141,12 +141,48 @@ body {
     object-fit: cover;
 }
 
+.places {
+    width: 1000px;
+    object-fit: cover;
+}
+
+.home h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
 .img-hv {
     transition: transform 0.3s ease;
 }
 
 .img-hv:hover {
     transform: scale(1.05);
+}
+
+.flights h3 {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.flights .list-group-item {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1rem;
+    color: #000;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 </style>

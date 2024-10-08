@@ -42,25 +42,38 @@
         </div>
     </section>
 
-    <section class="boxes mb-5">
-        <div class="container">
-            <div class="box">
-                <a href="<?= base_url()?>" class="navbar-brand text-center fs-5">
-                    <img class="buttons" src="assets/images/logo/buttontest.jpg">
-                    <h3>Check In</h3>
-                </a>
-            </div>
-            <div class="box">
-            <a href="<?= base_url()?>" class="navbar-brand text-center fs-5">
-                    <img class="buttons" src="assets/images/logo/buttontest.jpg">
-                    <h3>Check In</h3>
-                </a>
-            </div>
-            <div class="box">
-            <a href="<?= base_url()?>" class="navbar-brand text-center fs-5">
-                    <img class="buttons" src="assets/images/logo/buttontest.jpg">
-                    <h3>Check In</h3>
-                </a>
+    <section class="flights mb-5">
+        <div class="home container">
+            <h1 class="text-center mb-4">Book Flights from</h1>
+            <div id="flightsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <p class="ubuntu text-center">Manila</p>
+                            <img src="assets/images/places/Manila.jpg" class="img-hv places img-fluid rounded mb-3" alt="Manila">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <p class="ubuntu text-center">Cebu</p>
+                            <img src="assets/images/places/Cebu.jpg" class="img-hv places img-fluid rounded mb-3" alt="Cebu">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <p class="ubuntu text-center">Davao</p>
+                            <img src="assets/images/places/Davao.jpg" class="img-hv places img-fluid rounded mb-3" alt="Davao">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#flightsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon custom-carousel-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#flightsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon custom-carousel-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
