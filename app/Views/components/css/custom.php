@@ -42,6 +42,11 @@ body {
     background-color: #ffffff;
 }
 
+.bg-yellow {
+    background-color: #ffe01e;
+    color: #1a78af;
+}
+
 .yellow {
     background-color: #ffe01e;
     color: #1a78af;
@@ -97,10 +102,18 @@ body {
     padding: 15px;
 }
 
+.about-title-VPV {
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 .about-text {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 20px;
-    padding: 20px;
+    padding: 5px;
 }
 
 .boxes {
