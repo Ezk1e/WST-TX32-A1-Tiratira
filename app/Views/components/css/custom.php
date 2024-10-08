@@ -116,6 +116,11 @@ body {
     padding: 5px;
 }
 
+.travel-info {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 .boxes {
     background-color: #ffffff;
     padding: 10px;

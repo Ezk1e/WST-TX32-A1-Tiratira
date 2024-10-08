@@ -26,7 +26,7 @@
                         <p class="about-text text-black">Our Fleet, no small feat! 5J HOORAY! CEB's 76-strong fleet is comprised of 55 Airbus (six A321neo, seven A321ceo, five A320neo, 29 A320, and eight A330) and 21 ATR (seven ATR 72-500, 13 ATR 72-600 and one ATR freighter) aircraft, one of the most modern aircraft fleets in the world. Between 2020 and 2026, Cebu Pacific will take delivery of 26 more Airbus A321neos, three more ATR 72-600, 16 A330neos, and 15 aircraft orders from the A320neo family.</p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-10 col-sm-10 m-auto">
+                <div class="col-lg-5 col-md-10 col-sm-10 mx-auto">
                     <img src="assets/images/About2.jpg" class="img-fluid rounded">
                 </div>
             </div>
